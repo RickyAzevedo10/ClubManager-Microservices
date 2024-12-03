@@ -1,0 +1,2 @@
+Add-Migration InitialCreate -Project Identity.Infra -StartupProject Identity
+Update-Database SpecifyingPrecision -Project Identity.Infra -StartupProject Identity

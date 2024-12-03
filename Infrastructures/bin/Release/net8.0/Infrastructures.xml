@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Infrastructures</name>
+    </assembly>
+    <members>
+        <member name="M:Infrastructures.Controllers.FacilityController.PostFacility(Infrastructures.Domain.DTOs.CreateFacilityDTO)">
+            <summary>
+            create Facility
+            </summary>
+            <param name="facilityBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.GetFacility(System.Int64)">
+            <summary>
+            get Facility
+            </summary>
+            <param name="facilityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.GetAllFacility">
+            <summary>
+            get all Facility
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.DeleteFacility(System.Int64)">
+            <summary>
+            delete Facility
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.PutFacility(Infrastructures.Domain.DTOs.UpdateFacilityDTO)">
+            <summary>
+            update Facility
+            </summary>
+            <param name="facilityToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.PostFacilityReservation(Infrastructures.Domain.DTOs.CreateFacilityReservationDTO)">
+            <summary>
+            create FacilityReservation
+            </summary>
+            <param name="facilityReservationBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.GetFacilityReservation(System.Int64)">
+            <summary>
+            get FacilityReservation
+            </summary>
+            <param name="facilityReservationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.DeleteFacilityReservation(System.Int64)">
+            <summary>
+            delete FacilityReservation
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.FacilityController.PutFacilityReservation(Infrastructures.Domain.DTOs.UpdateFacilityReservationDTO)">
+            <summary>
+            update FacilityReservation
+            </summary>
+            <param name="facilityReservationToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.PostMaintenanceRequest(Infrastructures.Domain.DTOs.CreateMaintenanceRequestDTO)">
+            <summary>
+            create MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.GetMaintenanceRequest(System.Int64)">
+            <summary>
+            get MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.DeleteMaintenanceRequest(System.Int64)">
+            <summary>
+            delete MaintenanceRequest
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.PutMaintenanceRequest(Infrastructures.Domain.DTOs.UpdateMaintenanceRequestDTO)">
+            <summary>
+            update MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.PostMaintenanceHistory(System.Int64)">
+            <summary>
+            create MaintenanceHistory
+            </summary>
+            <param name="maintenanceRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Infrastructures.Controllers.MaintenanceController.GetMaintenanceHistory(System.DateTime,System.DateTime)">
+            <summary>
+            get MaintenanceHistory
+            </summary>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Infrastructures.Middlewares.RequestURLMiddleware">
+            <summary>
+            This is used to return the endpoint of the request, that will be usefful when we put load balancer
+            </summary>
+        </member>
+    </members>
+</doc>

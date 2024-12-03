@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClubManager</name>
+    </assembly>
+    <members>
+        <member name="M:ClubManager.Controllers.MembersTeams.EntityController.PostExpense(ClubManager.Domain.DTOs.Financial.CreateEntityDTO)">
+            <summary>
+            create Entity
+            </summary>
+            <param name="entityBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.EntityController.DeleteEntity(System.Int64)">
+            <summary>
+            delete Entity
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.EntityController.PutEntity(ClubManager.Domain.DTOs.Financial.UpdateEntityDTO)">
+            <summary>
+            update Entity
+            </summary>
+            <param name="entityToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.EntityController.GetEntity(System.Int64)">
+            <summary>
+            get Entity
+            </summary>
+            <param name="entityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.EntityController.GetAllEntity">
+            <summary>
+            get all Entity
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.ExpenseController.PostExpense(ClubManager.Domain.DTOs.Financial.ExpenseDTO)">
+            <summary>
+            create expense
+            </summary>
+            <param name="expenseBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.ExpenseController.DeleteExpense(System.Int64)">
+            <summary>
+            delete Expense
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.ExpenseController.PutExpense(ClubManager.Domain.DTOs.Financial.UpdateExpenseDTO)">
+            <summary>
+            update expense
+            </summary>
+            <param name="expenseToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.ExpenseController.GetExpense(System.Int64)">
+            <summary>
+            get expense
+            </summary>
+            <param name="expenseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.ExpenseController.GetAllExpense">
+            <summary>
+            get all expense
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.RevenueController.PostRevenue(ClubManager.Domain.DTOs.Financial.RevenueDTO)">
+            <summary>
+            create Revenue
+            </summary>
+            <param name="revenueBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.RevenueController.PutRevenue(ClubManager.Domain.DTOs.Financial.UpdateRevenueDTO)">
+            <summary>
+            update Revenue
+            </summary>
+            <param name="revenueToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.RevenueController.DeleteRevenue(System.Int64)">
+            <summary>
+            delete Revenue
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.RevenueController.GetRevenue(System.Int64)">
+            <summary>
+            get Revenue
+            </summary>
+            <param name="revenueId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.RevenueController.GetAllRevenue">
+            <summary>
+            get all revenues
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.PostFacility(ClubManager.Domain.DTOs.Infrastructures.CreateFacilityDTO)">
+            <summary>
+            create Facility
+            </summary>
+            <param name="facilityBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.GetFacility(System.Int64)">
+            <summary>
+            get Facility
+            </summary>
+            <param name="facilityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.GetAllFacility">
+            <summary>
+            get all Facility
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.DeleteFacility(System.Int64)">
+            <summary>
+            delete Facility
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.PutFacility(ClubManager.Domain.DTOs.Infrastructures.UpdateFacilityDTO)">
+            <summary>
+            update Facility
+            </summary>
+            <param name="facilityToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.PostFacilityReservation(ClubManager.Domain.DTOs.Infrastructures.CreateFacilityReservationDTO)">
+            <summary>
+            create FacilityReservation
+            </summary>
+            <param name="facilityReservationBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.GetFacilityReservation(System.Int64)">
+            <summary>
+            get FacilityReservation
+            </summary>
+            <param name="facilityReservationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.DeleteFacilityReservation(System.Int64)">
+            <summary>
+            delete FacilityReservation
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.FacilityController.PutFacilityReservation(ClubManager.Domain.DTOs.Infrastructures.UpdateFacilityReservationDTO)">
+            <summary>
+            update FacilityReservation
+            </summary>
+            <param name="facilityReservationToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.PostMaintenanceRequest(ClubManager.Domain.DTOs.Infrastructures.CreateMaintenanceRequestDTO)">
+            <summary>
+            create MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.GetMaintenanceRequest(System.Int64)">
+            <summary>
+            get MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.DeleteMaintenanceRequest(System.Int64)">
+            <summary>
+            delete MaintenanceRequest
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.PutMaintenanceRequest(ClubManager.Domain.DTOs.Infrastructures.UpdateMaintenanceRequestDTO)">
+            <summary>
+            update MaintenanceRequest
+            </summary>
+            <param name="maintenanceRequestToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.PostMaintenanceHistory(System.Int64)">
+            <summary>
+            create MaintenanceHistory
+            </summary>
+            <param name="maintenanceRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MaintenanceController.GetMaintenanceHistory(System.DateTime,System.DateTime)">
+            <summary>
+            get MaintenanceHistory
+            </summary>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.Post(ClubManager.Domain.DTOs.MembersTeams.CreateClubMemberDTO)">
+            <summary>
+            adding member
+            </summary>
+            <param name="memberBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.Delete(System.Int64)">
+            <summary>
+            delete member
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.SearchClubMembers(System.String,System.String)">
+            <summary>
+            get member with search method
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.GetAllClubMembers">
+            <summary>
+            get all member
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.Put(ClubManager.Domain.DTOs.MembersTeams.UpdateClubMemberDTO)">
+            <summary>
+            update member
+            </summary>
+            <param name="memberToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.PostMinorMembers(ClubManager.Domain.DTOs.MembersTeams.CreateMinorClubMemberDTO)">
+            <summary>
+            adding minor member
+            </summary>
+            <param name="memberBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.PutMinorMembers(ClubManager.Domain.DTOs.MembersTeams.UpdateMinorClubMemberDTO)">
+            <summary>
+            update minor member
+            </summary>
+            <param name="minorMemberToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.SearchMinorMembers(System.String,System.String)">
+            <summary>
+            get minor member with search method
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.GetAllMinorClubMembers">
+            <summary>
+            get all minor member
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MembersController.DeleteMinorClubMembers(System.Int64)">
+            <summary>
+            delete minor member
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PostPlayer(ClubManager.Domain.DTOs.MembersTeams.CreatePlayerDTO)">
+            <summary>
+            create player
+            </summary>
+            <param name="playerBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.DeletePlayer(System.Int64)">
+            <summary>
+            delete player
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.SearchPlayers(System.String,System.String,System.String)">
+            <summary>
+            get player with search
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.GetPlayer(System.Int64)">
+            <summary>
+            get player
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PutPlayers(ClubManager.Domain.DTOs.MembersTeams.UpdatePlayerDTO)">
+            <summary>
+            update player
+            </summary>
+            <param name="playerToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PostPlayerTransfer(ClubManager.Domain.DTOs.MembersTeams.CreatePlayerTransferDTO)">
+            <summary>
+            create PlayerTransfer
+            </summary>
+            <param name="playerTransferBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.DeletePlayerTransfer(System.Int64)">
+            <summary>
+            delete PlayerTransfer
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.GetPlayerTransfer(System.Int64)">
+            <summary>
+            get all PlayerTransfer
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PutPlayerTransfer(ClubManager.Domain.DTOs.MembersTeams.UpdatePlayerTransferDTO)">
+            <summary>
+            update PlayerTransfer
+            </summary>
+            <param name="playerTransferToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PostPlayerContract(ClubManager.Domain.DTOs.MembersTeams.CreatePlayerContractDTO)">
+            <summary>
+            create PlayerContract
+            </summary>
+            <param name="playerContractBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.DeletePlayerContract(System.Int64)">
+            <summary>
+            delete PlayerContract
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.GetPlayerContract(System.Int64)">
+            <summary>
+            get all PlayerContract
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PutPlayerContract(ClubManager.Domain.DTOs.MembersTeams.UpdatePlayerContractDTO)">
+            <summary>
+            update PlayerContract
+            </summary>
+            <param name="playerContractToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PostPlayerPerformanceHistory(ClubManager.Domain.DTOs.MembersTeams.CreatePlayerPerformanceHistoryDTO)">
+            <summary>
+            create PlayerPerformanceHistory
+            </summary>
+            <param name="playerPerformanceHistory"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.DeletePlayerPerformanceHistory(System.Int64)">
+            <summary>
+            delete PlayerPerformanceHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.GetPlayerPerformanceHistory(System.Int64,System.String)">
+            <summary>
+            get PlayerPerformanceHistory
+            </summary>
+            <param name="playerId"></param>
+            <param name="season"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.PlayersController.PutPlayerPerformanceHistory(ClubManager.Domain.DTOs.MembersTeams.UpdatePlayerPerformanceHistoryDTO)">
+            <summary>
+            update PlayerPerformanceHistory
+            </summary>
+            <param name="playerPerformanceHistoryToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TeamsController.GetTeams">
+            <summary>
+            get all teams
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TeamsController.GetAllPlayersFromTeam(System.Int64)">
+            <summary>
+            get all players from a team
+            </summary>
+            <param name="teamId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TeamsController.PutTeam(ClubManager.Domain.DTOs.MembersTeams.UpdateTeamDTO)">
+            <summary>
+            update team
+            </summary>
+            <param name="teamToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TeamsController.DeleteTeam(System.Int64)">
+            <summary>
+            delete team
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TeamsController.PostTeam(ClubManager.Domain.DTOs.MembersTeams.CreateTeamDTO)">
+            <summary>
+            create team
+            </summary>
+            <param name="teamBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.PostMatch(ClubManager.Domain.DTOs.TrainingCompetition.CreateMatchDTO)">
+            <summary>
+            Create Match
+            </summary>
+            <param name="matchBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.PutMatch(ClubManager.Domain.DTOs.TrainingCompetition.UpdateMatchDTO)">
+            <summary>
+            Update match
+            </summary>
+            <param name="teamToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.DeleteMatch(System.Int64)">
+            <summary>
+            Delete match
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.GetMatch(System.Int64)">
+            <summary>
+            Get Match
+            </summary>
+            <param name="matchId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.GetTeamMatches(System.Int64)">
+            <summary>
+            Get Team matches
+            </summary>
+            <param name="teamId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.PostMatchStatistics(ClubManager.Domain.DTOs.TrainingCompetition.CreateMatchStatisticDTO)">
+            <summary>
+            create MatchStatistics
+            </summary>
+            <param name="matchStatisticBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.DeleteMatchStatistic(System.Int64)">
+            <summary>
+            delete MatchStatistics
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.PutMatchStatistic(ClubManager.Domain.DTOs.TrainingCompetition.UpdateMatchStatisticDTO)">
+            <summary>
+            update MatchStatistics
+            </summary>
+            <param name="matchStatisticToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.GetMatchStatisticsFromMatchID(System.Int64)">
+            <summary>
+            get match statistic
+            </summary>
+            <param name="matchId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.GetPlayerMatchStatistics(System.Int64)">
+            <summary>
+            get player statistic
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.MatchController.GetPlayerMatchStatisticsFromMatchId(System.Int64,System.Int64)">
+            <summary>
+            get player statistic from a game
+            </summary>
+            <param name="playerId"></param>
+            <param name="matchId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.PostTrainingSession(ClubManager.Domain.DTOs.TrainingCompetition.CreateTrainingSessionDTO)">
+            <summary>
+            create TrainingSession
+            </summary>
+            <param name="trainingSessionBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.PutTrainingSession(ClubManager.Domain.DTOs.TrainingCompetition.UpdateTrainingSessionDTO)">
+            <summary>
+            update TrainingSession
+            </summary>
+            <param name="trainingSessionToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.DeleteTrainingSession(System.Int64)">
+            <summary>
+            delete TrainingSession
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.GetTrainingSession(System.Int64)">
+            <summary>
+            get TrainingSession
+            </summary>
+            <param name="trainingSessionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.GetTrainingSessionsByDateRange(System.DateTime,System.DateTime)">
+            <summary>
+            get TrainingSession from a date interval
+            </summary>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.PostTrainingAttendance(ClubManager.Domain.DTOs.TrainingCompetition.CreateTrainingAttendanceDTO)">
+            <summary>
+            create TrainingAttendance
+            </summary>
+            <param name="trainingAttendanceBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.PutTrainingAttendance(ClubManager.Domain.DTOs.TrainingCompetition.UpdateTrainingAttendanceDTO)">
+            <summary>
+            update TrainingAttendance
+            </summary>
+            <param name="trainingAttendanceToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.DeleteTrainingAttendance(System.Int64)">
+            <summary>
+            delete TrainingAttendance
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.MembersTeams.TrainingController.GetTrainingAttendance(System.Int64)">
+            <summary>
+            get all player attendance
+            </summary>
+            <param name="trainingAttendanceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.InstitutionController.Get(System.Int64)">
+            <summary>
+            Get a specific institution
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.InstitutionController.GetAll">
+            <summary>
+            Get all institution
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.InstitutionController.Post(ClubManager.Domain.DTOs.Identity.CreateInstitutionDTO)">
+            <summary>
+            Create a new institution and a admin user for that institution
+            </summary>
+            <param name="institutionBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.InstitutionController.Put(ClubManager.Domain.DTOs.Identity.UpdateInstitutionDTO)">
+            <summary>
+            Update a institution
+            </summary>
+            <param name="institutionToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.InstitutionController.Delete(System.Int64)">
+            <summary>
+            Delete a specific institution
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.Get(System.Int64)">
+            <summary>
+            get user information
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.GetAllFromInstitution(System.Int64)">
+            <summary>
+            get all information about a institution id
+            </summary>
+            <param name="idInstitution"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.GetUserPermissions(System.Int64)">
+            <summary>
+            get user permissions from a user id
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.GetAllUserRoles">
+            <summary>
+            roles existentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.Post(ClubManager.Domain.DTOs.Identity.CreateUserDTO)">
+            <summary>
+            Create User
+            </summary>
+            <param name="userBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.Put(ClubManager.Domain.DTOs.Identity.UpdateUserDTO)">
+            <summary>
+            Update User
+            </summary>
+            <param name="userToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.Delete(System.Int64)">
+            <summary>
+            delete user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.LoginUser(ClubManager.Domain.DTOs.Identity.UserLoginDTO)">
+            <summary>
+            Login user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.RefreshUser(System.String)">
+            <summary>
+            Refresh token
+            </summary>
+            <param name="refreshToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.PutUserPermissions(ClubManager.Domain.DTOs.Identity.UpdateUserPermissionsDTO)">
+            <summary>
+            Update User Permissions
+            </summary>
+            <param name="userPermissionsBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.DeleteUserPermissions(System.Int64)">
+            <summary>
+            Delete User Permissions
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.RecoverPassword(ClubManager.Domain.DTOs.Identity.RecoverPasswordRequestDTO)">
+            <summary>
+            Recover password
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClubManager.Controllers.Identity.UsersController.ResetPassword(ClubManager.Domain.DTOs.Identity.ResetPasswordDTO)">
+            <summary>
+            ResetPassword
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClubManager.Middlewares.RequestURLMiddleware">
+            <summary>
+            This is used to return the endpoint of the request, that will be usefful when we put load balancer
+            </summary>
+        </member>
+    </members>
+</doc>

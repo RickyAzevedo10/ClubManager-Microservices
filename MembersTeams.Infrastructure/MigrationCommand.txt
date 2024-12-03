@@ -1,0 +1,2 @@
+Add-Migration InitialCreate -Project MembersTeams.Infra -StartupProject MembersTeams
+Update-Database SpecifyingPrecision -Project MembersTeams.Infra -StartupProject MembersTeams

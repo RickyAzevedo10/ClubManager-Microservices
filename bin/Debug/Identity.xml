@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Identity</name>
+    </assembly>
+    <members>
+        <member name="M:Identity.Controllers.InstitutionController.Get(System.Int64)">
+            <summary>
+            Get a specific institution
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.InstitutionController.GetAll">
+            <summary>
+            Get all institution
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.InstitutionController.Post(Identity.Domain.DTOs.CreateInstitutionDTO)">
+            <summary>
+            Create a new institution and a admin user for that institution
+            </summary>
+            <param name="institutionBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.InstitutionController.Put(Identity.Domain.DTOs.UpdateInstitutionDTO)">
+            <summary>
+            Update a institution
+            </summary>
+            <param name="institutionToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.InstitutionController.Delete(System.Int64)">
+            <summary>
+            Delete a specific institution
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.Get(System.Int64)">
+            <summary>
+            get user information
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.GetAllFromInstitution(System.Int64)">
+            <summary>
+            get all information about a institution id
+            </summary>
+            <param name="idInstitution"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.GetUserPermissions(System.Int64)">
+            <summary>
+            get user permissions from a user id
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.GetAllUserRoles">
+            <summary>
+            roles existentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.Post(Identity.Domain.DTOs.CreateUserDTO)">
+            <summary>
+            Create User
+            </summary>
+            <param name="userBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.Put(Identity.Domain.DTOs.UpdateUserDTO)">
+            <summary>
+            Update User
+            </summary>
+            <param name="userToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.Delete(System.Int64)">
+            <summary>
+            delete user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.LoginUser(Identity.Domain.DTOs.UserLoginDTO)">
+            <summary>
+            Login user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.RefreshUser(System.String)">
+            <summary>
+            Refresh token
+            </summary>
+            <param name="refreshToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.PutUserPermissions(Identity.Domain.DTOs.UpdateUserPermissionsDTO)">
+            <summary>
+            Update User Permissions
+            </summary>
+            <param name="userPermissionsBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.DeleteUserPermissions(System.Int64)">
+            <summary>
+            Delete User Permissions
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.RecoverPassword(Identity.Domain.DTOs.RecoverPasswordRequestDTO)">
+            <summary>
+            Recover password
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Identity.Controllers.UsersController.ResetPassword(Identity.Domain.DTOs.ResetPasswordDTO)">
+            <summary>
+            ResetPassword
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Identity.Middlewares.RequestURLMiddleware">
+            <summary>
+            This is used to return the endpoint of the request, that will be usefful when we put load balancer
+            </summary>
+        </member>
+    </members>
+</doc>

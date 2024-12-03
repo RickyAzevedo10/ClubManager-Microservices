@@ -1,0 +1,2 @@
+Add-Migration InitialCreate -Project TrainingCompetition.Infra -StartupProject TrainingCompetition
+Update-Database SpecifyingPrecision -Project TrainingCompetition.Infra -StartupProject TrainingCompetition

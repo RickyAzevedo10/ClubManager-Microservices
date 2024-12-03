@@ -1,0 +1,2 @@
+Add-Migration InitialCreate -Project Financial.Infrastructure -StartupProject Financial
+Update-Database SpecifyingPrecision -Project Financial.Infra -StartupProject Financial

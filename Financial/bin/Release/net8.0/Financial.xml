@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Financial</name>
+    </assembly>
+    <members>
+        <member name="M:Financial.Controllers.EntityController.PostExpense(Financial.Domain.DTOs.CreateEntityDTO)">
+            <summary>
+            create Entity
+            </summary>
+            <param name="entityBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.EntityController.DeleteEntity(System.Int64)">
+            <summary>
+            delete Entity
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.EntityController.PutEntity(Financial.Domain.DTOs.UpdateEntityDTO)">
+            <summary>
+            update Entity
+            </summary>
+            <param name="entityToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.EntityController.GetEntity(System.Int64)">
+            <summary>
+            get Entity
+            </summary>
+            <param name="entityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.EntityController.GetAllEntity">
+            <summary>
+            get all Entity
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.ExpenseController.PostExpense(Financial.Domain.DTOs.ExpenseDTO)">
+            <summary>
+            create expense
+            </summary>
+            <param name="expenseBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.ExpenseController.DeleteExpense(System.Int64)">
+            <summary>
+            delete Expense
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.ExpenseController.PutExpense(Financial.Domain.DTOs.UpdateExpenseDTO)">
+            <summary>
+            update expense
+            </summary>
+            <param name="expenseToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.ExpenseController.GetExpense(System.Int64)">
+            <summary>
+            get expense
+            </summary>
+            <param name="expenseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.ExpenseController.GetAllExpense">
+            <summary>
+            get all expense
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.RevenueController.PostRevenue(Financial.Domain.DTOs.RevenueDTO)">
+            <summary>
+            create Revenue
+            </summary>
+            <param name="revenueBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.RevenueController.PutRevenue(Financial.Domain.DTOs.UpdateRevenueDTO)">
+            <summary>
+            update Revenue
+            </summary>
+            <param name="revenueToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.RevenueController.DeleteRevenue(System.Int64)">
+            <summary>
+            delete Revenue
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.RevenueController.GetRevenue(System.Int64)">
+            <summary>
+            get Revenue
+            </summary>
+            <param name="revenueId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Financial.Controllers.RevenueController.GetAllRevenue">
+            <summary>
+            get all revenues
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Financial.Middlewares.RequestURLMiddleware">
+            <summary>
+            This is used to return the endpoint of the request, that will be usefful when we put load balancer
+            </summary>
+        </member>
+    </members>
+</doc>

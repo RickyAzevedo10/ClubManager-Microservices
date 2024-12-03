@@ -1,0 +1,12 @@
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\bin\Release\net8.0\MembersTeams.Domain.deps.json
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\bin\Release\net8.0\MembersTeams.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\bin\Release\net8.0\MembersTeams.Domain.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.csproj.AssemblyReference.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.AssemblyInfoInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.AssemblyInfo.cs
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\refint\MembersTeams.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\MembersTeams.Domain.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\MembersTeams.Domain\obj\Release\net8.0\ref\MembersTeams.Domain.dll

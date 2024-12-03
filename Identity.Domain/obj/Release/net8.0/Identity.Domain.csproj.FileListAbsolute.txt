@@ -1,0 +1,12 @@
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\bin\Release\net8.0\Identity.Domain.deps.json
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\bin\Release\net8.0\Identity.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\bin\Release\net8.0\Identity.Domain.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.csproj.AssemblyReference.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.AssemblyInfoInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.AssemblyInfo.cs
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\refint\Identity.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\Identity.Domain.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMicroServices\ClubManager\Identity.Domain\obj\Release\net8.0\ref\Identity.Domain.dll

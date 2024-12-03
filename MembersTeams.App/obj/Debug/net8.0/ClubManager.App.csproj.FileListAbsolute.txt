@@ -1,0 +1,15 @@
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\bin\Debug\net8.0\ClubManager.App.deps.json
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\bin\Debug\net8.0\ClubManager.App.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\bin\Debug\net8.0\ClubManager.App.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.AssemblyInfoInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.AssemblyInfo.cs
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\refint\ClubManager.App.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ref\ClubManager.App.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\bin\Debug\net8.0\ClubManager.Domain.dll
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\bin\Debug\net8.0\ClubManager.Domain.pdb
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubManager.App.csproj.AssemblyReference.cache
+C:\Users\Ricardo Azevedo\Desktop\Tese\ClubManagerMonolith\ClubManager\ClubManager.App\obj\Debug\net8.0\ClubMana.E5D41228.Up2Date

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BWmqd4uSo5EwQiMsunGGavo5QVtdo9Yk3dj50VnotlHZlFCnaye1yPnQeOw1ITQqCXop6T1i5u/Qv85ZLiYrAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ricardo Azevedo\\Desktop\\Tese\\MicroServices\\ClubManager\\Infrastructures.Domain\\Infrastructures.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ricardo Azevedo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\Ricardo Azevedo\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Ricardo Azevedo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ricardo Azevedo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

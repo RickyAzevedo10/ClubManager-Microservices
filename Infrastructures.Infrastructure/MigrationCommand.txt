@@ -1,0 +1,2 @@
+Add-Migration InitialCreate -Project Infrastructures.Infrastructure -StartupProject Infrastructures
+Update-Database SpecifyingPrecision -Project Infrastructures.Infrastructure -StartupProject Infrastructures

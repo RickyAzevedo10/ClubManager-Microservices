@@ -1,0 +1,6 @@
+@MembersTeams_HostAddress = http://localhost:5072
+
+GET {{MembersTeams_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

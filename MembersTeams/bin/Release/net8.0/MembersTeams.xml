@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MembersTeams</name>
+    </assembly>
+    <members>
+        <member name="M:MembersTeams.Controllers.MembersController.Post(MembersTeams.Domain.DTOs.CreateClubMemberDTO)">
+            <summary>
+            adding member
+            </summary>
+            <param name="memberBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.Delete(System.Int64)">
+            <summary>
+            delete member
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.SearchClubMembers(System.String,System.String)">
+            <summary>
+            get member with search method
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.GetAllClubMembers">
+            <summary>
+            get all member
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.Put(MembersTeams.Domain.DTOs.UpdateClubMemberDTO)">
+            <summary>
+            update member
+            </summary>
+            <param name="memberToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.PostMinorMembers(MembersTeams.Domain.DTOs.CreateMinorClubMemberDTO)">
+            <summary>
+            adding minor member
+            </summary>
+            <param name="memberBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.PutMinorMembers(MembersTeams.Domain.DTOs.UpdateMinorClubMemberDTO)">
+            <summary>
+            update minor member
+            </summary>
+            <param name="minorMemberToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.SearchMinorMembers(System.String,System.String)">
+            <summary>
+            get minor member with search method
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.GetAllMinorClubMembers">
+            <summary>
+            get all minor member
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.MembersController.DeleteMinorClubMembers(System.Int64)">
+            <summary>
+            delete minor member
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PostPlayer(MembersTeams.Domain.DTOs.CreatePlayerDTO)">
+            <summary>
+            create player
+            </summary>
+            <param name="playerBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.DeletePlayer(System.Int64)">
+            <summary>
+            delete player
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.SearchPlayers(System.String,System.String,System.String)">
+            <summary>
+            get player with search
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.GetPlayer(System.Int64)">
+            <summary>
+            get player
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PutPlayers(MembersTeams.Domain.DTOs.UpdatePlayerDTO)">
+            <summary>
+            update player
+            </summary>
+            <param name="playerToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PostPlayerTransfer(MembersTeams.Domain.DTOs.CreatePlayerTransferDTO)">
+            <summary>
+            create PlayerTransfer
+            </summary>
+            <param name="playerTransferBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.DeletePlayerTransfer(System.Int64)">
+            <summary>
+            delete PlayerTransfer
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.GetPlayerTransfer(System.Int64)">
+            <summary>
+            get all PlayerTransfer
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PutPlayerTransfer(MembersTeams.Domain.DTOs.UpdatePlayerTransferDTO)">
+            <summary>
+            update PlayerTransfer
+            </summary>
+            <param name="playerTransferToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PostPlayerContract(MembersTeams.Domain.DTOs.CreatePlayerContractDTO)">
+            <summary>
+            create PlayerContract
+            </summary>
+            <param name="playerContractBody"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.DeletePlayerContract(System.Int64)">
+            <summary>
+            delete PlayerContract
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.GetPlayerContract(System.Int64)">
+            <summary>
+            get all PlayerContract
+            </summary>
+            <param name="playerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PutPlayerContract(MembersTeams.Domain.DTOs.UpdatePlayerContractDTO)">
+            <summary>
+            update PlayerContract
+            </summary>
+            <param name="playerContractToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PostPlayerPerformanceHistory(MembersTeams.Domain.DTOs.CreatePlayerPerformanceHistoryDTO)">
+            <summary>
+            create PlayerPerformanceHistory
+            </summary>
+            <param name="playerPerformanceHistory"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.DeletePlayerPerformanceHistory(System.Int64)">
+            <summary>
+            delete PlayerPerformanceHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.GetPlayerPerformanceHistory(System.Int64,System.String)">
+            <summary>
+            get PlayerPerformanceHistory
+            </summary>
+            <param name="playerId"></param>
+            <param name="season"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.PlayersController.PutPlayerPerformanceHistory(MembersTeams.Domain.DTOs.UpdatePlayerPerformanceHistoryDTO)">
+            <summary>
+            update PlayerPerformanceHistory
+            </summary>
+            <param name="playerPerformanceHistoryToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.TeamsController.GetTeams">
+            <summary>
+            get all teams
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.TeamsController.GetAllPlayersFromTeam(System.Int64)">
+            <summary>
+            get all players from a team
+            </summary>
+            <param name="teamId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.TeamsController.PutTeam(MembersTeams.Domain.DTOs.UpdateTeamDTO)">
+            <summary>
+            update team
+            </summary>
+            <param name="teamToUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.TeamsController.DeleteTeam(System.Int64)">
+            <summary>
+            delete team
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MembersTeams.Controllers.TeamsController.PostTeam(MembersTeams.Domain.DTOs.CreateTeamDTO)">
+            <summary>
+            create team
+            </summary>
+            <param name="teamBody"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MembersTeams.Middlewares.RequestURLMiddleware">
+            <summary>
+            This is used to return the endpoint of the request, that will be usefful when we put load balancer
+            </summary>
+        </member>
+    </members>
+</doc>

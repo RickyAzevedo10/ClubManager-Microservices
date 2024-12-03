@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "clubmanager": "StartDebugging",
+        "financial": "StartDebugging",
+        "identity": "StartDebugging",
+        "infrastructures": "StartDebugging",
+        "membersteams": "StartDebugging",
+        "trainingcompetition": "StartDebugging",
+        "gateway": "StartDebugging"
+      }
+    }
+  }
+}
