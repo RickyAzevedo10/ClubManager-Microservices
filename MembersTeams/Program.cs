@@ -5,6 +5,7 @@ using MembersTeams.Application.Consumers;
 using MembersTeams.Application.Interfaces.Infrastructure;
 using MembersTeams.Infra.Contexts;
 using MembersTeams.Infrastructure.Persistence.CachedRepositories;
+using MembersTeams.Infrastructure.Services;
 using MembersTeams.Ioc;
 using MembersTeams.Middlewares;
 using Microsoft.EntityFrameworkCore;
@@ -69,7 +70,12 @@ WebApplication? app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+    var fakeService = scope.ServiceProvider.GetRequiredService<FakerService>();
+
     dbContext.Database.Migrate(); // Cria a base de dados e aplica as migrations
+
+    // Realiza o seed dos dados
+    await SeedData.SeedAsync(dbContext, fakeService);
 }
 
 

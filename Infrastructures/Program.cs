@@ -4,6 +4,7 @@ using Infrastructures.Application.Consumers;
 using Infrastructures.Application.Interfaces.Infrastructure;
 using Infrastructures.Infra.Contexts;
 using Infrastructures.Infrastructure.Persistence.CachedRepositories;
+using Infrastructures.Infrastructure.Services;
 using Infrastructures.Ioc;
 using Infrastructures.Middlewares;
 using MassTransit;
@@ -67,7 +68,12 @@ WebApplication? app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+    var fakeService = scope.ServiceProvider.GetRequiredService<FakerService>();
+
     dbContext.Database.Migrate(); // Cria a base de dados e aplica as migrations
+    
+    // Realiza o seed dos dados
+    await SeedData.SeedAsync(dbContext, fakeService);
 }
 
 // Configure the HTTP request pipeline.

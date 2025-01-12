@@ -6,6 +6,7 @@ using TrainingCompetition.Application.Consumers;
 using TrainingCompetition.Application.Interfaces.Infrastructure;
 using TrainingCompetition.Infra.Contexts;
 using TrainingCompetition.Infrastructure.Persistence.CachedRepositories;
+using TrainingCompetition.Infrastructure.Services;
 using TrainingCompetition.Ioc;
 using TrainingCompetition.Middlewares;
 
@@ -68,7 +69,12 @@ WebApplication? app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+    var fakeService = scope.ServiceProvider.GetRequiredService<FakerService>();
+
     dbContext.Database.Migrate(); // Cria a base de dados e aplica as migrations
+
+    // Realiza o seed dos dados
+    await SeedData.SeedAsync(dbContext, fakeService);
 }
 
 // Configure the HTTP request pipeline.

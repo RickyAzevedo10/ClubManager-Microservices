@@ -1,3 +1,4 @@
+using Identity.Infrastructure.Services;
 using Identity.API.Configuration;
 using Identity.API.Midlewares;
 using Identity.Domain.Interfaces.Persistence.CachedRepositories;
@@ -64,7 +65,12 @@ WebApplication? app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+    var fakeService = scope.ServiceProvider.GetRequiredService<FakerService>();
+
     dbContext.Database.Migrate(); // Cria a base de dados e aplica as migrations
+    
+    // Realiza o seed dos dados
+    await SeedData.SeedAsync(dbContext, fakeService);
 }
 
 // Configure the HTTP request pipeline.

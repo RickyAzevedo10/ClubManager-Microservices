@@ -1,12 +1,19 @@
 ﻿using MembersTeams.Domain.Entities;
 using MembersTeams.Infrastructure.Configuration;
+using MembersTeams.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace MembersTeams.Infra.Contexts
 {
-    public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
+    //public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
+    public class DataContext : DbContext
     {
-        
+        private readonly FakerService _fakerService;
+
+        public DataContext(DbContextOptions<DataContext> options, FakerService fakerService) : base(options)
+        {
+            _fakerService = fakerService;
+        }
 
         //MembersTeams
         public DbSet<Player> Player { get; set; }
@@ -29,6 +36,10 @@ namespace MembersTeams.Infra.Contexts
         {
             base.OnModelCreating(builder);
 
+            // Gerar 1 instituição
+            var institutions = _fakerService.GenerateInstitution(1);
+            builder.Entity<Institution>().HasData(institutions.ToArray());
+
             //MembersTeams
             builder.ApplyConfiguration(new TeamCategoryConfiguration());
             builder.ApplyConfiguration(new TeamCoachConfiguration());
@@ -40,8 +51,6 @@ namespace MembersTeams.Infra.Contexts
             builder.ApplyConfiguration(new PlayerContractConfiguration());
             builder.ApplyConfiguration(new PlayerConfiguration());
             builder.ApplyConfiguration(new PlayerTransferConfiguration());
-
-
         }
     }
 }
